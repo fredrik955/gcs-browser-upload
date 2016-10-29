@@ -5,9 +5,7 @@
   "main": "dist/Upload.js",
   "scripts": {
     "test": "make test",
-    "preinstall": "npm run compile",
-    "compile": "make compile",
-    "prepublish": "npm run compile"
+    "compile": "make compile"
   },
   "repository": {
     "type": "git",
